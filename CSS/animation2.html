@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .parent {
+        width: 100px;
+        height: 70px;
+        margin: 40px;
+        background-color: greenyellow;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        position: absolute;
+        top: 0;
+        left: 0px;
+        animation-name: CSS;
+        animation-duration: 8s;
+        animation-delay: 2s;
+        border-radius: 35%;
+      }
+      @keyframes CSS {
+        0% {
+          top: 0;
+          left: 0;
+        }
+        10% {
+          top: 0;
+          left: 0;
+          transform: rotate(45deg);
+        }
+        50% {
+          top: 0;
+          left: 1350px;
+          transform: rotate(0deg);
+          background-color: green;
+        }
+        100% {
+          top: 0;
+          left: 0;
+          transform: rotate(-360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">CSS</div>
+  </body>
+</html>

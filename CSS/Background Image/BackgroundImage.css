@@ -1,0 +1,13 @@
+.practice{
+    width: 100px;
+    height: 200px;
+    border: 3px solid black;
+    background-image: url(../../Images/IMG20220114091605.jpg);
+    background-size: 100px;
+    background-repeat: no-repeat;
+}
+body{
+    background-image: url(../../Images/body\ backgrpund\ image.jpg);
+    background-size: 1500px;
+    background-repeat: no-repeats;
+}

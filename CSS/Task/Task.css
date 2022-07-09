@@ -1,0 +1,66 @@
+body{
+    background-image: url(https://www.shutterstock.com/image-photo/middle-eastern-man-wearing-kandora-eating-1360894892);
+    background-size: 1500px;
+}
+.div1{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    background-color: rgb(232, 27, 27);
+    border: 2px solid red;
+    border-radius: 30px;
+    margin-left: 150px;
+    margin-top: 100px;
+    text-align: center;
+    text-align: justify;
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.RyrpAqmYBRqvyEbxZom71QHaB9&pid=Api&P=0&w=576&h=152);
+    background-size: 200px;
+
+}
+.div2{
+        width: 100px;
+        height: 100px;
+        background-color: brown;
+        border-radius: 35px;
+        position: absolute;
+        left: -50px;
+        top: 110px;
+        background-image: url(https://static3.makeuseofimages.com/wordpress/wp-content/uploads/2017/09/HTML-Effects-Featured.jpg);
+        background-size: 100px;
+        
+    }
+
+.div3{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border-radius: 35px;
+    position: absolute;
+    right: -50px;
+    top: 110px;
+    background-image: url(https://achievement-images.teamtreehouse.com/badges_css_basics_stage1.png);
+    background-size: 100px;
+    
+}
+.div4{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border-radius: 35px;
+    position: absolute;
+    top: -50px;
+    right: 110px;
+    background-image: url(https://s3.amazonaws.com/com.twilio.prod.twilio-docs/original_images/java-logo-wide.jpg);
+    background-size: 150px;
+}
+.div5{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border-radius: 35px;
+    position: absolute;
+    bottom: -50px;
+    right: 110px;
+    background-image: url(https://oneteamsolutions.in/blogoneteam/wp-content/uploads/2020/05/REACT-JS-KOCHI.png);
+    background-size: 100px;
+}

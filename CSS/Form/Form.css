@@ -1,0 +1,26 @@
+body{
+    border: 2px solid black;
+    border-radius: 75px;
+    width: fit-content;
+    background-image: url(https://i.ytimg.com/vi/IUcwCzcDbvU/maxresdefault.jpg);
+    }
+    #one{
+        border-radius: 75px;
+    }
+    #two{
+        border-radius: 50px;
+        margin-left: 90px;
+    }
+    #three{
+        border-radius: 75px;
+    }
+    input{
+        border-radius: 30px;
+    }
+    .form{
+        background-image: url(https://www.careeryojana.in/wp-content/uploads/2021/04/SRTMUN-University-150x150.png);
+        background-size: 110%;
+        }
+        .heading{
+            text-shadow: 5px 5px 15px green;
+        }

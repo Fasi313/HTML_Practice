@@ -1,0 +1,18 @@
+
+.head{
+    text-size-adjust: 200px;
+     color: 50px; white;
+     text-align: center;
+     text-shadow: 10px 5px 10px rgb(233, 22, 29);
+}
+.head2{
+    height: 100px;
+     text-align: right;
+}
+.scroll{
+    width: 200px;
+    height: 400px;
+    border: 2px solid black;
+    overflow: auto;
+    background-color:blanchedalmond ;
+}

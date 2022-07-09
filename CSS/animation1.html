@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .parent {
+        background-color: skyblue;
+        width: 1200px;
+        height: 1200px;
+        position: relative;
+      }
+      .first {
+        background-color: green;
+        width: 200px;
+        height: 200px;
+        top: 0px;
+        left: 500px;
+        animation-name: sample;
+        animation-duration: 5s;
+        position: absolute;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        /* animation-delay: 3s;
+        /* animation-iteration-count: infinite;  */
+      }
+      @keyframes sample {
+        /* from {
+          background-color: black;
+          width: 300px;
+          height: 300px;
+        }
+        to {
+          background-color: red;
+          width: 200px;
+          height: 200px;
+        } */
+        0% {
+          top: 0;
+          left: 500;
+          background-image: url(../Images/IMG20220114091605.jpg);
+          background-size: 50%;
+          border-radius: 0%;
+        }
+        25% {
+          top: 500px;
+          left: 1000px;
+          background-image: url(../Images/IMG20220114091605.jpg);
+          background-size: 50%;
+          border-radius: 50%;
+        }
+        50% {
+          top: 1000px;
+          left: 500px;
+          background-image: url(../Images/IMG20220114091605.jpg);
+          background-size: 50%;
+          border-radius: 50%;
+        }
+        75% {
+          top: 500px;
+          left: 0px;
+          background-image: url(../Images/IMG20220114091605.jpg);
+          background-size: 50%;
+          border-radius: 50%;
+        }
+        100% {
+          top: 0px;
+          left: 500px;
+          background-image: url(../Images/IMG20220114091605.jpg);
+          background-size: 50%;
+          border-radius: 50%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="first"></div>
+    </div>
+  </body>
+</html>
